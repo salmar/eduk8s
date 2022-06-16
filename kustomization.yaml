@@ -21,7 +21,7 @@ bases:
 - ./resources
 
 images:
-- name: quay.io/eduk8s/eduk8s-operator
+- name: registry.digitalocean.com/eduk8s/eduk8s-operator
   newTag: 220317.032048.ce6cd57
 
 patchesStrategicMerge:

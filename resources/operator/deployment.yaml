@@ -17,7 +17,7 @@ spec:
       serviceAccountName: eduk8s
       containers:
       - name: eduk8s
-        image: quay.io/eduk8s/eduk8s-operator:develop
+        image: registry.digitalocean.com/eduk8s/eduk8s-operator:develop
         imagePullPolicy: Always
         envFrom:
         - configMapRef:
